@@ -1,9 +1,7 @@
 html{font-size: 62.5%;min-width: 320px}
 body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;background: white;}
 
-@media (max-width: 500px){
-    .input-0{width: 100%}
-}
+
 @media (max-width: 992px){
     .demo--label{text-align:center!important;display:block;width:100%!important;margin: 0!important;padding: 0!important;height:3rem!important;line-height:3rem!important;}
     select{float: left!important;margin: 0 0 1rem calc((100% - 10rem)/2)!important;}
@@ -13,7 +11,11 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
     .margin-right3{margin-right: 0!important;}
     .input-1 + select{margin: 0 0 1rem calc(50% - 7rem)!important;}
  }
+@media (max-width: 500px){
+    .input-0{width: 100%!important;}
+    .radio .input {width: 100%;padding-left: calc(50% - 4em)}
 
+}
 
 @media (min-width: 320px){
      html{font-size: 40%;}
